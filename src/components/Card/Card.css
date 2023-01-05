@@ -1,0 +1,25 @@
+.card {
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(199, 197, 197);
+}
+.product_img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.detail_container {
+    padding: 5px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.description {
+    font-size: small;
+}
+.rating>span {
+    font-size: 20px;
+    font-weight: 600;
+}
