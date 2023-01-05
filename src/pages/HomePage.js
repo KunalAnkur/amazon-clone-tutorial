@@ -29,6 +29,7 @@ function HomePage() {
             price={product.price}
             rating={product.rating.rate}
             title={product.title}
+            id={product.id}
           />
         )) : <Skeleton />}
       </div>
