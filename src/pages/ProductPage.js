@@ -3,9 +3,8 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 function ProductPage() {
   const [product, setProduct] = useState({});
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const { id } = useParams();
-  console.log(id);
 
   useEffect(() => {
     setLoading(true);

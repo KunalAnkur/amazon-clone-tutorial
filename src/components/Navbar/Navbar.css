@@ -3,14 +3,20 @@
     background-color: rgb(126, 71, 209);
     height: 70px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
     color: white;
     position: sticky;
     top:0;
     z-index: 1;
 }
-
+.middle_nav_container{
+    display: flex;
+}
+.logo>img{
+    height: 200px;
+    margin-top: 10px;
+}
 .category {
     cursor: pointer;
     padding: 20px 30px;
@@ -19,4 +25,33 @@
 .category:hover {
     background-color: rgb(156, 110, 226);
     
+}
+.category>span{
+    margin-left: 10px;
+}
+
+.left_nav_container{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+.category.selected{
+    background-color: rgb(156, 110, 226);
+}
+.badge{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    color: white;
+    border-radius: 50%;
+    background-color: red;
+    top: -5px;
+    right: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:10px ;
+    font-weight: 600;
 }
